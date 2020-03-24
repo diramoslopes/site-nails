@@ -1,0 +1,23 @@
+body{
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(248, 12, 122);
+    color: white;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+p{
+    text-align: center;
+}
