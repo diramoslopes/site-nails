@@ -30,8 +30,7 @@ main h3{
 
 .produtos li:hover{
     border-color: rgb(252, 10, 131);
-    border-width: 3px;
-    width: 28%;
+    border-width: 1px;
 }
 
 .produtos li:active{
