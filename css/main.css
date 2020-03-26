@@ -1,6 +1,5 @@
 body{
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Neucha', cursive;
     line-height: 1.5em;
     box-sizing: border-box;
 }
@@ -44,19 +43,16 @@ p{
     text-align: center;
 }
 
-h2{
-    text-align: center;
-    font-size: 2em;
-    text-transform: uppercase;
-    padding-bottom: 10px;
-}
-
 section{
     padding: 30px;
+    width: 940px;
+    margin: 0 auto;
 }
 
 footer{
     text-align: center;
+    background-color: #2b313e;
+    color: white;   
 }
 
 .dark{
@@ -70,17 +66,51 @@ footer{
     color: black;
 }
 
-.container{
+/*.container{
     width: 940px;
     margin: 0 auto;
+}*/
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    clear: left;
 }
 
 .sobre {
     text-align: center;
 }
 
+.sobre p {
+    margin-bottom: 10px;
+}
+
+.sobre img{
+    float: left;
+    margin: 0;
+    position: relative;
+    bottom: 42px;
+}
+
 .localizacao{
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
+}
+
+.localizacao-img{
+    margin: 15px;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.localizacao-img:hover{
+    opacity: 0.7;
 }
 
 .beneficios{
@@ -103,13 +133,20 @@ footer{
     line-height: 2em;
 }
 
+.beneficios li::before{
+  content: '★ ';
+}
+
 .beneficios img{
     width: 20%;
-    margin-left: 25%;
 }
 
 .contato{
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(#fefefe,#2b313e);
+   
 }
 
 .contato p{
@@ -147,4 +184,55 @@ footer{
 .contato .youtube{
     background-image: url('../img/youtube.jpg');  
     border-radius: 5px;
+}
+
+@media screen and (max-width: 480px){
+
+    section, footer, .localizacao-img, .localizacao, .sobre, .contato{
+        width: auto;
+    }
+
+    nav a {
+        font-size: 2.5em;
+    }
+
+    .sobre img {
+        margin-top: 15%;
+        bottom: 42px;
+        width: 200px;
+        height: 250px;
+        border-radius: 46px;
+        float: none;
+        }
+    
+    .sobre p{
+        font-size: 1.5em;
+        line-height: 1.2
+    }
+
+    .titulo-principal{
+        line-height: 1.2;
+    }
+
+    h1{
+        font-size: 3em;
+        padding: 10%
+    }
+
+    .localizacao p, .contato p{
+        font-size: 1.3em;
+    }
+
+    .beneficios img{
+        width: auto;
+    }
+
+    .beneficios li{
+        font-size: 1.3em;
+    }
+
+    .beneficios ul{
+        margin-bottom: 10%;
+    }
+
 }

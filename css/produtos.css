@@ -2,10 +2,6 @@ body{
     box-sizing: border-box;
 }
 
-header, main{
-    border-bottom: 1px solid black;
-}
-
 main ul li {
     display: inline-block;
     width: 30%;
@@ -28,6 +24,12 @@ main h3{
     font-weight: bold;
 }
 
+.produtos{
+    background-color: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .produtos li:hover{
     border-color: rgb(252, 10, 131);
     border-width: 1px;
@@ -38,7 +40,7 @@ main h3{
 }
 
 .produtos li:hover h3{
-    font-size: 35px;
+    font-size: 2em;
 }
 
 .sombrancelha{
@@ -60,4 +62,16 @@ main h3{
     font-size: 22px;
     font-weight: bold;
     padding: 10px;
+}
+
+@media screen and (max-width: 480px){
+    main ul li{
+        display: block;
+        margin-left: 10%;
+        margin-bottom: 5%
+    }
+
+    .sombrancelha {
+        margin-left: 94px;
+    }
 }
