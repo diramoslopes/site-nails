@@ -94,6 +94,17 @@ footer{
     bottom: 42px;
 }
 
+.cartoes{
+    position: absolute;
+    top: 740px;
+    left: 300px;
+}
+
+.cartoes img{
+    width: 210px;
+    height: 100px;
+}
+
 .localizacao{
     width: 100%;
     margin: 0 auto;
@@ -188,9 +199,14 @@ footer{
 
 @media screen and (max-width: 480px){
 
-    section, footer, .localizacao-img, .localizacao, .sobre, .contato{
-        width: auto;
+    section, footer, .sobre, .contato{
+            width: auto;
     }
+
+    .localizacao, .localizacao-img{
+        width: 300px;
+        margin: auto;
+    }    
 
     nav a {
         font-size: 2.5em;
@@ -207,7 +223,8 @@ footer{
     
     .sobre p{
         font-size: 1.5em;
-        line-height: 1.2
+        line-height: 1.2;
+        margin-bottom: 40px;
     }
 
     .titulo-principal{
@@ -235,4 +252,30 @@ footer{
         margin-bottom: 10%;
     }
 
+    .titulo-estabelecimento{
+        margin-top: 165px;
+    }
+
+    .cartoes{
+        position: absolute;
+        top: 204%;
+        left: 8.8%;
+    }
+    
+    .cartoes img{
+        width: 370px;
+        height: 175px;
+    }
+
 }
+
+@media screen and (max-width: 375px){
+
+    .cartoes{
+        position: absolute;
+        top:  223%;
+        left: -3.2%;
+    }
+
+}
+

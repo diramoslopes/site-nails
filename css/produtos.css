@@ -5,6 +5,7 @@ body{
 main ul li {
     display: inline-block;
     width: 30%;
+    height: 470px;
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
@@ -47,6 +48,7 @@ main h3{
     margin-left: 327px;
     margin-top: 30px;
     margin-bottom: 10px;
+    height: 690px;
 }
 
 .sombrancelha h3{
@@ -64,14 +66,49 @@ main h3{
     padding: 10px;
 }
 
+.cartoes-produtos{
+    position: absolute;
+    top: 1000px;
+    left: 950px;
+
+}
+
+.cartoes-produtos img{
+    width: 210px;
+    height: 100px;
+}
+
 @media screen and (max-width: 480px){
     main ul li{
         display: block;
-        margin-left: 10%;
+        margin-left: 5px;
+        width: 80%;
         margin-bottom: 5%
     }
 
     .sombrancelha {
-        margin-left: 94px;
+        margin-left: 5px;
     }
+
+    .produtos{
+        width: 100%;
+        margin-left: 30px;
 }
+
+.cartoes-produtos{
+    position: absolute;
+    top: 57%;
+    left: 7%;
+}
+
+.cartoes-produtos img{
+    width: 85%;
+    height: 175px;
+}
+
+.produto-mao{
+    margin-top: 180px;
+}
+
+}
+
