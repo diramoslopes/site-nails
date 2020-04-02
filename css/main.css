@@ -252,29 +252,18 @@ footer{
         margin-bottom: 10%;
     }
 
-    .titulo-estabelecimento{
-        margin-top: 165px;
-    }
-
     .cartoes{
-        position: absolute;
-        top: 204%;
-        left: 8.8%;
+        position: static;
+        width: 100%;
+        margin: 0px auto;  
+        margin-top: 33px;
+        text-align: center;
     }
     
     .cartoes img{
-        width: 370px;
-        height: 175px;
-    }
-
-}
-
-@media screen and (max-width: 375px){
-
-    .cartoes{
-        position: absolute;
-        top:  223%;
-        left: -3.2%;
+        width: 298px;
+        height: 140px;
+        margin: 0px auto;  
     }
 
 }

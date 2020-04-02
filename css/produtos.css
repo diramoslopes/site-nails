@@ -93,21 +93,18 @@ main h3{
     .produtos{
         width: 100%;
         margin-left: 30px;
-}
+    }
 
 .cartoes-produtos{
-    position: absolute;
-    top: 57%;
-    left: 7%;
+    position: static;
+    text-align: center;
+    margin-top: -40px;
 }
 
 .cartoes-produtos img{
-    width: 85%;
-    height: 175px;
-}
-
-.produto-mao{
-    margin-top: 180px;
+    width: 298px;
+    height: 140px;
+    margin: 0 auto;
 }
 
 }
